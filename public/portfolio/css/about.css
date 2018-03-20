@@ -1,0 +1,153 @@
+.geometric-pattern-bg {
+    padding-bottom: 40vw;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vw 0 0 0;
+}
+
+.cards .cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.8vw 0;
+}
+
+.card-container {
+    cursor: pointer;
+    perspective: 600;
+    position: relative;
+    /*height: 150px;*/
+    /*width: 150px;*/
+    height: 17vw;
+    width: 17vw;
+
+    margin: 0 4vw;
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.3vw;
+    color: #7a7979;
+
+    height: 17vw;
+    width: 17vw;
+    position: absolute;
+    transform-style: preserve-3d;
+
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    transition: all 1s ease-in-out, box-shadow 0.5s cubic-bezier(.25, .8, .25, 1);
+
+    border-radius: 10px;
+}
+
+.card:hover {
+    /*background-color: rgba(167, 0, 0,1);*/
+    /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card.rotated {
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0;
+
+    /*background-color: red;*/
+    backface-visibility: hidden;
+    height: 13vw;
+    width: 17vw;
+    position: absolute;
+    overflow: hidden;
+
+    transform: rotateX(0deg);
+
+    border-radius: 15px;
+}
+
+.cards .cards-row .card .side p {
+    margin: 0;
+}
+
+.cards .cards-row .card .side .title {
+    font-weight: 100;
+    margin-top: .5vw;
+}
+
+.cards .cards-row .card .side .fact {
+    font-size: 1.75vw;
+    margin-top: 1vw;
+    letter-spacing: 1px;
+}
+
+.cards .cards-row .card .side .card-icon {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+/*optical compensation for some icons*/
+.cards .cards-row .card .side .card-icon.dog {
+    width: 3.1vw;
+    height: 3.1vw;
+}
+
+.cards .cards-row .card .side .card-icon.puzzle {
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+.cards .cards-row .card .side .card-icon.brain {
+    width: 2.67vw;
+    height: 2.67vw;
+}
+
+.cards .cards-row .card .side .card-icon.snowboard {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.cards .cards-row .card .side .card-icon.ghost {
+    width: 2.35vw;
+    height: 2.35vw;
+}
+
+.cards .cards-row .card .side .card-icon.suitcase {
+    width: 2.49vw;
+    height: 2.49vw;
+}
+
+.card .back {
+    /*background: #eaeaed;*/
+    justify-content: space-between;
+    /*color: #0087cc;*/
+    line-height: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.card .back .details {
+    font-size: 1.2vw;
+    width: 80%;
+    height: 11vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+

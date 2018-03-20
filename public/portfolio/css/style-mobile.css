@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1024px) {
+    .menu a {
+        font-size: 1.5vw;
+    }
+
+    .work h1.work-title {
+        font-size: 3vw;
+    }
+
+    .work .streams .stream .rhombus {
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+
+    .story-widget .scroller .scroll-btn {
+        font-size: 1.5vw;
+        transition: all .3s;
+    }
+
+    .story-widget .arrow {
+        width: 1.2vw;
+    }
+
+    .story-widget .scroller.enabledBtn:hover .arrow {
+        /*cursor: pointer;*/
+        width: 1.7vw;
+    }
+
+    .story-widget .scroller.enabledBtn:hover .scroll-btn {
+        font-size: 1.7vw;
+    }
+
+    .story-widget .scroll-area .item .story-rhombus-svg-container {
+        display: flex;
+        align-items: center;
+        /*width: 4.5vw;*/
+        /*height: 4.5vw;*/
+    }
+
+    .feedback-form .form-content input,
+    .feedback-form .form-content textarea{
+        font-size: 1vw;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .story-widget .scroll-container {
+        height: 16.5vw;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .story-widget .scroll-container {
+        height: 16vw;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+
+    .story-widget .scroll-container {
+        height: 15vw;
+    }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.41 41.41">
+    <defs>
+        <style>
+            .white-rhombus-svg {
+                fill: #fff;
+                stroke: #000;
+                stroke-miterlimit: 10;
+                transition: all ease .5s;
+            }
+        </style>
+    </defs>
+    <rect class="white-rhombus-svg" x="6.56" y="6.56" width="28.28" height="28.28"
+          transform="translate(-8.58 20.71) rotate(-45)"/>
+</svg>

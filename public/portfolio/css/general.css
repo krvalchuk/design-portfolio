@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Raleway, serif;
+    font-weight: 600;
+}
+
+.no-select{
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Likely future */
+}
+
+.container {
+    padding: 0 8vw;
+}
+
+.force-select {
+    -webkit-user-select: all; /* Chrome 49+ */
+    -moz-user-select: all; /* Firefox 43+ */
+    -ms-user-select: all; /* No support yet */
+    user-select: all; /* Likely future */
+}
+
+.grey-bg {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4vw;
+    margin-bottom: 4vw;
+    color: #7a7979;
+
+    font-size: 1.3vw;
+}
+
+.section-heading h3 {
+    margin: 0 3vw;
+}
+
+.section-heading .hline {
+    width: 10vw;
+    height: 2px;
+    background: #929191;
+}
+
+.geometric-pattern-bg{
+    background-size: 300px;
+    background-image: url("../graphic/geometry-pattern.png");
+    background-repeat: repeat;
+}
+
+.photography-pattern-bg{
+    background-size: 300px;
+    background-image: url("../graphic/photography-pattern.png");
+    background-repeat: repeat;
+}
+
+.texturetasric-pattern-bg{
+    background-size: 200px;
+    background-image: url("../graphic/texturetastic_gray.png");
+    background-repeat: repeat;
+}

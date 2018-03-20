@@ -1,0 +1,33 @@
+#footer {
+    height: 27vw;
+    position: relative;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    /*padding-left: 22vw;*/
+    /*align-items: center;*/
+
+
+
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.1), inset 0 5px 10px rgba(0,0,0,0.17);
+}
+
+.footer-img-bg{
+    background-size: 100% auto;
+    background-position: bottom;
+    background-image: url("../graphic/footer.jpg");
+    background-repeat: repeat-x;
+
+
+    /*background-size: 100% auto;*/
+    /*background-position: 0px -420px;*/
+    /*background-image: url("../graphic/footer-02.jpg");*/
+    /*background-repeat: no-repeat;*/
+}
+#footer .copyright{
+    font-size: .9vw;
+    align-self: start;
+    margin-top: 23.7vw;
+    background-color: rgba(255,255,255,0.6);
+}

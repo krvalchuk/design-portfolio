@@ -1,0 +1,82 @@
+/*rhombus inside story widget*/
+.white-rhombus-svg {
+    fill: #fff;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    transition: all ease .5s;
+}
+
+.story-widget .scroll-area .item.hovered svg .white-rhombus-svg,
+.story-widget .scroll-area .item:last-child svg .white-rhombus-svg {
+    fill: #a70000;
+    stroke: #a70000;
+}
+
+/*scroller arrows on the sides of story widget*/
+.left-arrow-svg,
+.right-arrow-svg {
+    fill: #970b0b;
+}
+
+.disabledBtn .left-arrow-svg,
+.disabledBtn .right-arrow-svg {
+    fill: #cdcccc;
+}
+
+.about-icon-svg {
+    fill: #959595;
+}
+
+.back .about-icon-svg {
+    fill: #970b0b;
+}
+
+.header-bottom .down-btn .down-arrow-container .down-arrow-svg {
+    transition: all .3s;
+}
+
+.header-bottom .down-btn:hover .down-arrow-container .down-arrow-svg {
+    fill: #970b0b;
+}
+
+.contacts .contacts-block .skype-svg-container .skype-svg,
+.contacts .contacts-block .email-svg-container .email-svg {
+    fill: #515151;
+    transition: fill .3s;
+}
+
+.contacts .contacts-block:hover .skype-svg-container .skype-svg,
+.contacts .contacts-block:hover .email-svg-container .email-svg {
+    fill: #a70000;
+}
+
+.work .details .play-svg-container .play-btn-svg {
+    fill: #ffffff;
+    transition: all .5s;
+}
+
+.social-svg-container .facebook-svg,
+.social-svg-container .behance-svg,
+.social-svg-container .linkedin-svg {
+    fill: #747474;
+    transition: all .5s;
+}
+
+.social-svg-container:hover .facebook-svg,
+.social-svg-container:hover .behance-svg,
+.social-svg-container:hover .linkedin-svg {
+    fill: #970b0b;
+}
+
+.work .text-section .text-block .link-svg-container .link-svg {
+    fill: none;
+    stroke: #396aba;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+}
+
+.work .text-section .text-block .link-svg-container .right-link-arrow-svg {
+    fill:#396aba;
+    /*stroke-width: 2px;*/
+}

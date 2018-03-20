@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.5 40.5">
+    <polyline class="link-svg" points="29.5 1.5 39 1.5 39 11"/>
+    <line class="link-svg" x1="21.5" y1="19" x2="39" y2="1.5"/>
+    <polyline class="link-svg" points="24.71 7.5 1.5 7.5 1.5 39 33 39 33 16.62"/>
+</svg>

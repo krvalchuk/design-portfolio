@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 25">
+    <defs>
+        <style>.left-arrow-svg{fill:#970b0b;}</style>
+    </defs>
+    <polygon class="left-arrow-svg" points="0 12.5 16 25 16 0 0 12.5"/>
+</svg>

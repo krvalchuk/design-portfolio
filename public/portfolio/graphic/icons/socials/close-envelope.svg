@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 10">
+    <path class="email-svg" d="M7,9L5.27,7.48l-5,4.24A1,1,0,0,0,1,12H13a1,1,0,0,0,.69-0.27L8.73,7.48Z"
+          transform="translate(0 -2)"/>
+    <path class="email-svg" d="M13.68,2.27A1,1,0,0,0,13,2H1a1,1,0,0,0-.69.27L7,8Z" transform="translate(0 -2)"/>
+    <polygon class="email-svg" points="0 0.88 0 9.19 4.83 5.08 0 0.88"/>
+    <polygon class="email-svg" points="9.17 5.08 14 9.19 14 0.88 9.17 5.08"/>
+</svg>

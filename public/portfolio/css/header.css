@@ -1,0 +1,133 @@
+.menu {
+    display: flex;
+    /*width: 100vw;*/
+    height: 5vw;
+    padding-bottom: 1.5vw;
+    /*background-color: red;*/
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    padding-right: 8vw;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    width: 100vw;
+    background-color: #FFFFFF;
+
+    transition: all .5s;
+}
+
+.menu.hide {
+    top: -6.5vw;
+}
+
+.menu.small {
+    height: 3.5vw;
+}
+
+.menu a {
+    margin-left: 6vw;
+    cursor: none;
+    transition: all .3s;
+
+    display: flex;
+    flex-direction: column;
+
+    /*align-items: center;*/
+    /*width: 4vw;*/
+}
+
+.menu a p {
+    margin: 0;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: #a70000;
+}
+
+.header {
+    margin-top: 5vw;
+    height: 25vw;
+    padding-top: 10vw;
+}
+
+.header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 3vw;
+}
+
+.header h1 {
+    color: #a70000;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 100;
+    font-size: 5.7vw;
+    margin-top: 2vw;
+    margin-left: .2vw;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5.5vw;
+}
+
+.header-bottom .down-btn {
+    font-weight: 400;
+    font-size: 2.3vw;
+    cursor: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom-width: 0;
+
+    transition: all .3s;
+}
+
+.header-bottom .down-btn:hover {
+    color: #a70000;
+    cursor: pointer;
+}
+
+.header-bottom .down-btn .btn-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom .down-btn .down-arrow-container {
+    margin-top: 3px;
+    margin-right: 1vw;
+    width: 1.22vw;
+}
+
+.header-bottom .down-btn p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    transition: all .3s;
+}
+
+.header-bottom .down-btn .btn-highlight,
+.menu a .btn-highlight {
+    margin-top: .3vw;
+    height: 2px;
+    background-color: #a70b0b;
+    width: 0;
+    transition: all .3s;
+}
+
+.menu a .btn-highlight {
+    margin-left: -10%;
+}
+
+.header-bottom .down-btn:hover .btn-highlight {
+    width: 100%;
+}
+
+.menu a:hover .btn-highlight {
+    width: 120%;
+}
