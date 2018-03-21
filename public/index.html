@@ -15,7 +15,7 @@
     <!--<js src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></js>-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	
+
     <!-- Add mousewheel plugin (this is optional) -->
     <script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel.pack.js"></script>
 
@@ -68,49 +68,55 @@
 
 </head>
 <body ng-app="valchukDesign" ng-controller="mainCtrl">
-<div id="home" class="container no-select">
-    <div id="menu" class="menu" ng-controller="menuCtrl">
-        <a id="home-link" ng-click="scrollToStart('home')">
-            <p>Home</p>
-            <div class="btn-highlight"></div>
-        </a>
-        <a id="works-link" ng-click="scrollToStart('works')">
-            <p>Works</p>
-            <div class="btn-highlight"></div>
-        </a>
-        <a id="story-link" ng-click="scrollToBottom('story')">
-            <p>Story</p>
-            <div class="btn-highlight"></div>
-        </a>
-        <a id="about-link" ng-click="scrollToStart('about')">
-            <p>About</p>
-            <div class="btn-highlight"></div>
-        </a>
-        <a id="footer-link" ng-click="scrollToCenter('feedback-form')">
-            <p>Contacts</p>
-            <div class="btn-highlight"></div>
-        </a>
-    </div>
-    <div class="header">
-        <h2 class="introduction">I am Kristina</h2>
-        <h1 class="profession">Web Designer</h1>
-    </div>
-    <div class="header-bottom">
-        <a class="down-btn" ng-click="scrollToStart('works')">
-            <div class="btn-content">
-                <div class="down-arrow-container">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.13 32">
-                        <polygon class="down-arrow-svg"
-                                 points="21.69 18.62 12.56 28.08 12.56 0 10.56 0 10.56 28.08 1.44 18.62 0 20.01 11.56 32 23.13 20.01 21.69 18.62"/>
-                    </svg>
+<div id="home" class="no-select">
+    <div class="main-photo"></div>
+    <div class="white-line"></div>
+    <div class="red-line"></div>
+    <div class="info-section">
+        <div id="menu" class="menu" ng-controller="menuCtrl">
+            <a id="home-link" ng-click="scrollToStart('home')">
+                <p>Home</p>
+                <div class="btn-highlight"></div>
+            </a>
+            <a id="works-link" ng-click="scrollToStart('works')">
+                <p>Works</p>
+                <div class="btn-highlight"></div>
+            </a>
+            <a id="story-link" ng-click="scrollToBottom('story')">
+                <p>Story</p>
+                <div class="btn-highlight"></div>
+            </a>
+            <a id="about-link" ng-click="scrollToStart('about')">
+                <p>About</p>
+                <div class="btn-highlight"></div>
+            </a>
+            <a id="footer-link" ng-click="scrollToCenter('feedback-form')">
+                <p>Contacts</p>
+                <div class="btn-highlight"></div>
+            </a>
+        </div>
+        <div class="text">
+            <h2 class="introduction">I am Kristina</h2>
+            <h1 class="profession">Web Designer</h1>
+        </div>
+        <div class="header-bottom">
+            <a class="down-btn" ng-click="scrollToStart('works')">
+                <div class="btn-content">
+                    <div class="down-arrow-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.13 32">
+                            <polygon class="down-arrow-svg"
+                                     points="21.69 18.62 12.56 28.08 12.56 0 10.56 0 10.56 28.08 1.44 18.62 0 20.01 11.56 32 23.13 20.01 21.69 18.62"/>
+                        </svg>
+                    </div>
+                    <!--<img src="graphic/icons/down-arrow.svg">-->
+                    <p>LET'S GET ACQUAINTED</p>
                 </div>
-                <!--<img src="graphic/icons/down-arrow.svg">-->
-                <p>LET'S GET ACQUAINTED</p>
-            </div>
-            <div class="btn-highlight"></div>
-        </a>
+                <div class="btn-highlight"></div>
+            </a>
+        </div>
     </div>
 </div>
+<div class="grey-bg" style="height: 8vw; width: 100vw"></div>
 <div id="works">
     <div class="grey-bg container">
         <div class="section-heading no-select">
